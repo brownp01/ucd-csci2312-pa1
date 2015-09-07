@@ -57,5 +57,6 @@ double Point::getZ() {
 // Returns the distance between two points
 
 double Point::distanceTo(Point &other) {
-  return sqrt(pow(x - other.getX(), 2)+pow(y-other.getY(), 2)+pow(z - other.getZ(),2));
+
+  return sqrt(pow(x - other.getX(), 2)+pow(y - other.getY(), 2)+pow(z - other.getZ(),2));
 }

@@ -4,18 +4,18 @@
 #ifndef __point_h
 #define __point_h
 
-class Point {
+class Point {     //defines a class of Point
 
 private:
-  double x;
-  double y;
-  double z;
+  double x;      //x value of point
+  double y;      //y value of point
+  double z;      //z value of point
 
 public:
   // Constructors
-  Point();                      // default constructor
+  Point();                                 // default constructor
   Point(double x, double y, double z);    // three-argument constructor
-  double distanceTo(Point &); //one argument member function using Point class
+  double distanceTo(Point &);             //one argument member function using a Point object as input
 
   // Destructor
   ~Point();
